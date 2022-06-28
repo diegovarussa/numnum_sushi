@@ -90,6 +90,7 @@ end
 function draw_menu()
 	cls()
 	print("press ❎ to start",30,63,blink.color)
+	print("by ding & jessy",36,120,15)
 --	local x = print("\^w\^tnumnum sushi",16,43,7)
 	local x = print("\014nUMNUM sUSHI",16,43,7)
 	line(16,52,x-3,52)
