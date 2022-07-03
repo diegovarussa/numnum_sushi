@@ -102,7 +102,7 @@ function init_gameover()
 end
 
 function update_gameorver()
-	if btnp(❎) then
+	if btnp(🅾️) then
 		init_menu()
 	end
 end
@@ -114,7 +114,7 @@ function draw_gameover()
 	print("game over!",30,40,7)
 	-- print("round: "..round,30,56,7)
 	print("score: "..points,30,64,7)
-	print("press ❎ to continue",30,88,7)
+	print("press 🅾️/z to continue",30,88,7)
 end
 -->8
 -- init
